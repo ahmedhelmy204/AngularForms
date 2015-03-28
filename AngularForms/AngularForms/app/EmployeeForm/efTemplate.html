@@ -31,15 +31,22 @@
             <div class="form-group">
                 <label for="department" class="col-sm-3 control-label">Department</label>
                 <div class="col-sm-9">
-                    <select name="department"
-                            id="department"
-                            class="form-control"
+                    <select name="department" id="department" class="form-control"
                             ng-model="editableEmployee.department"
                             ng-options="dept for dept in departments"></select>
                 </div>
             </div>
-            <br />
+            
+            <div class="form-group">
+                <label for="dateHired" class="col-sm-3 control-label">Date Hired</label>
+                <div class="col-sm-9">
+                    <datepicker ng-model="editableEmployee.dateHired">
+                    </datepicker>
+                </div>
+            </div>
+
         </fieldset>
+        <br />
 
         <fieldset>
             <legend>Perks</legend>

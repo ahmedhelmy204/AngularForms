@@ -7,6 +7,7 @@
                     fullName: "Milton Waddams",
                     notes: "The ideal employee. Just don't touch his red staple",
                     department: "Administration",
+                    dateHired: "July 11 2014",
                     perkCar: true,
                     perkStock: false,
                     perkSixWeeks: true,
