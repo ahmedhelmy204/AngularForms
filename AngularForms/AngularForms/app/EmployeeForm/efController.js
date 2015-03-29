@@ -17,6 +17,22 @@
                 "Administration"
             ];
 
+            $scope.programmingLanguages = [
+                 "C",
+                 "C++",
+                 "C#",
+                 "JavaScript",
+                 "Java",
+                 "Pascal",
+                 "Perl",
+                 "PHP"
+            ];
+
+            $scope.hoveringOver = function (value) {
+                $scope.overStar = value;
+                $scope.percent = 100 * (value / 10);
+            };
+
             $scope.submitForm = function () {
                 if ($scope.editableEmployee.id == 0) {
                     // insert new employee
