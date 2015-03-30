@@ -18,6 +18,10 @@
                 "Administration"
             ];
 
+            $scope.shouldShowFullName = function () {
+                return true;
+            };
+
             $scope.programmingLanguages = [
                  "C",
                  "C++",
