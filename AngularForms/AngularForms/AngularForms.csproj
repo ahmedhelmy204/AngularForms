@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\Home.html" />
+    <Content Include="app\ValidationDirective.js" />
     <Content Include="Content\app.css" />
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.min.js" />
