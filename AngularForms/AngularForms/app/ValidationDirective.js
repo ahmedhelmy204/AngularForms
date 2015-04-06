@@ -25,7 +25,7 @@ angularFormsApp.directive('showErrors', function () {
             // only apply the has-error class after the user leaves the text box
             inputNgEl.bind('blur', function () {
                 el.toggleClass('has-error', formCtrl[inputName].$invalid);
-                helpText.toggleClass('hide', formCtrl[inputName].$valid);
+                //helpText.toggleClass('hide', formCtrl[inputName].$valid);
             });
 
         }
