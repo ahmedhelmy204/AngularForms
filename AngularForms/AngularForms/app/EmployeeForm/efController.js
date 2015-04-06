@@ -66,4 +66,8 @@
                 //$modalInstance.dismiss();
             }
 
+            $scope.resetForm = function () {
+                $scope.$broadcast('hide-errors-event');
+            }
+
         });
