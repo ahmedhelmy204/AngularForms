@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6C72FA
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularForMVC", "AngularForMVC\AngularForMVC.csproj", "{10187CBB-9540-451A-B487-99D4852089BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{A3BF11A8-F717-453F-9861-BD26762A3B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3BF11A8-F717-453F-9861-BD26762A3B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3BF11A8-F717-453F-9861-BD26762A3B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10187CBB-9540-451A-B487-99D4852089BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10187CBB-9540-451A-B487-99D4852089BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10187CBB-9540-451A-B487-99D4852089BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10187CBB-9540-451A-B487-99D4852089BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
