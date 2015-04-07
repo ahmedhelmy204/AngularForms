@@ -40,6 +40,9 @@ namespace AngularForMVC
                 "~/app/EmployeeForm/efController.js",
                 "~/app/EmployeeForm/efDirective.js"));
 
+            // Set EnableOptimizations to false for debugging. For more
+            // visit http://go.microsoft.com/fwlink/?linkId=301862
+            BundleTable.EnableOptimizations = true;
         }
     }
 }

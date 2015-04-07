@@ -1,13 +1,11 @@
 ﻿angularFormsApp.controller('efController',
-        //function efController($scope, $window, $routeParams, $modalInstance, DataService) {
+        ["$scope", "$window", "$routeParams", "DataService",
         function efController($scope, $window, $routeParams, DataService) {
 
             if ($routeParams.id)
                 $scope.employee = DataService.getEmployee($routeParams.id);
             else
                 $scope.employee = { id: 0 };
-
-            //$scope.employee = DataService.employee;
 
             $scope.editableEmployee = angular.copy($scope.employee);
 
@@ -70,4 +68,4 @@
                 $scope.$broadcast('hide-errors-event');
             }
 
-        });
+        }]);
